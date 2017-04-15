@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragmentView"
+    tools:context="ml.ansat.ansat.Home.HomeFragment"
+    android:background="@color/background">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Welcome"
+        android:textSize="40dp"
+        android:layout_marginTop="153dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="User"
+        android:textSize="40dp"
+        android:layout_marginTop="225dp"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
